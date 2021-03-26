@@ -1,0 +1,1890 @@
+[
+    {
+        "id": "overwatch",
+        "name": "Overwatch",
+        "short_name": "Overwatch",
+        "weapons": [
+            {
+                "id": "biotic_rifle",
+                "name": "Biotic Rifle"
+            },
+            {
+                "id": "endothermic_blaster",
+                "name": "Endothermic Blaster"
+            },
+            {
+                "id": "fusion_cannons",
+                "name": "Fusion Cannons"
+            },
+            {
+                "id": "fusion_driver",
+                "name": "Fusion Driver"
+            },
+            {
+                "id": "heavy_pulse_rifle",
+                "name": "Heavy Pulse Rifle"
+            },
+            {
+                "id": "hellfire_shotguns",
+                "name": "Hellfire Shotguns"
+            },
+            {
+                "id": "machine_pistol",
+                "name": "Machine Pistol"
+            },
+            {
+                "id": "orb_of_destruction",
+                "name": "Orb of Destruction"
+            },
+            {
+                "id": "peacekeeper",
+                "name": "Peacekeeper"
+            },
+            {
+                "id": "pulse_pistols",
+                "name": "Pulse Pistols"
+            },
+            {
+                "id": "quad_cannons",
+                "name": "Quad Cannons"
+            },
+            {
+                "id": "rivet_gun",
+                "name": "Rivet Gun"
+            },
+            {
+                "id": "rocket_launcher",
+                "name": "Rocket Launcher"
+            },
+            {
+                "id": "scrap_gun",
+                "name": "Scrap Gun"
+            },
+            {
+                "id": "sentry_gun",
+                "name": "Sentry Gun"
+            },
+            {
+                "id": "storm_bow",
+                "name": "Storm Bow"
+            },
+            {
+                "id": "viper",
+                "name": "Viper"
+            },
+            {
+                "id": "widow_kiss",
+                "name": "Widow Kiss"
+            }
+        ]
+    },
+    {
+        "id": "counterstrikegoadvan",
+        "name": "Counter-Strike: GO",
+        "short_name": "CS:GO",
+        "weapons": [
+            {
+                "id": "ak_47_adv",
+                "name": "AK-47"
+            },
+            {
+                "id": "aug_adv",
+                "name": "AUG"
+            },
+            {
+                "id": "awp_z1_counter_terrorist_adv",
+                "name": "AWP (Lvl.1 Scope)"
+            },
+            {
+                "id": "awp_z1_terrorist_adv",
+                "name": "AWP (Lvl.1 Scope)"
+            },
+            {
+                "id": "awp_z2_counter_terrorist_adv",
+                "name": "AWP (Lvl.2 Scope)"
+            },
+            {
+                "id": "awp_z2_terrorist_adv",
+                "name": "AWP (Lvl.2 Scope)"
+            },
+            {
+                "id": "cz75_auto_counter_terrorist_adv",
+                "name": "CZ75-Auto"
+            },
+            {
+                "id": "cz75_auto_terrorist_adv",
+                "name": "CZ75-Auto"
+            },
+            {
+                "id": "desert_eagle_counter_terrorist_adv",
+                "name": "Desert Eagle"
+            },
+            {
+                "id": "desert_eagle_terrorist_adv",
+                "name": "Desert Eagle"
+            },
+            {
+                "id": "dual_berettas_counter_terrorist_adv",
+                "name": "Dual Berettas"
+            },
+            {
+                "id": "dual_berettas_terrorist_adv",
+                "name": "Dual Berettas"
+            },
+            {
+                "id": "famas_adv",
+                "name": "FAMAS"
+            },
+            {
+                "id": "five_seven_adv",
+                "name": "Five-SeveN"
+            },
+            {
+                "id": "g3sg1_z1_adv",
+                "name": "G3SG1 (Lvl.1 Scope)"
+            },
+            {
+                "id": "g3sg1_z2_adv",
+                "name": "G3SG1 (Lvl.2 Scope)"
+            },
+            {
+                "id": "galil_ar_adv",
+                "name": "Galil AR"
+            },
+            {
+                "id": "glock18_adv",
+                "name": "Glock-18"
+            },
+            {
+                "id": "m249_counter_terrorist_adv",
+                "name": "M249"
+            },
+            {
+                "id": "m249_terrorist_adv",
+                "name": "M249"
+            },
+            {
+                "id": "m4a1_s_adv",
+                "name": "M4A1-S"
+            },
+            {
+                "id": "m4a4_adv",
+                "name": "M4A4"
+            },
+            {
+                "id": "mac_10_adv",
+                "name": "MAC-10"
+            },
+            {
+                "id": "mag_7_adv",
+                "name": "MAG-7"
+            },
+            {
+                "id": "mp_7_counter_terrorist_adv",
+                "name": "MP7"
+            },
+            {
+                "id": "mp_7_terrorist_adv",
+                "name": "MP7"
+            },
+            {
+                "id": "mp_9_adv",
+                "name": "MP9"
+            },
+            {
+                "id": "negev_counter_terrorist_adv",
+                "name": "Negev"
+            },
+            {
+                "id": "negev_terrorist_adv",
+                "name": "Negev"
+            },
+            {
+                "id": "nova_counter_terrorist_adv",
+                "name": "Nova"
+            },
+            {
+                "id": "nova_terrorist_adv",
+                "name": "Nova"
+            },
+            {
+                "id": "p2000_adv",
+                "name": "P2000"
+            },
+            {
+                "id": "p250_counter_terrorist_adv",
+                "name": "P250"
+            },
+            {
+                "id": "p250_terrorist_adv",
+                "name": "P250"
+            },
+            {
+                "id": "p90_counter_terrorist_adv",
+                "name": "P90"
+            },
+            {
+                "id": "p90_terrorist_adv",
+                "name": "P90"
+            },
+            {
+                "id": "pp_bizon_counter_terrorist_adv",
+                "name": "PP-Bizon"
+            },
+            {
+                "id": "pp_bizon_terrorist_adv",
+                "name": "PP-Bizon"
+            },
+            {
+                "id": "r8_revolver_counter_terrorist_adv",
+                "name": "R8 Revolver"
+            },
+            {
+                "id": "r8_revolver_terrorist_adv",
+                "name": "R8 Revolver"
+            },
+            {
+                "id": "scar_20_z1_adv",
+                "name": "SCAR-20 (Lvl.1 Scope)"
+            },
+            {
+                "id": "scar_20_z2_adv",
+                "name": "SCAR-20 (Lvl.2 Scope)"
+            },
+            {
+                "id": "sg_553_adv",
+                "name": "SG 553"
+            },
+            {
+                "id": "ssg_08_z1_counter_terrorist_adv",
+                "name": "SSG 08 (Lvl.1 Scope)"
+            },
+            {
+                "id": "ssg_08_z1_terrorist_adv",
+                "name": "SSG 08 (Lvl.1 Scope)"
+            },
+            {
+                "id": "ssg_08_z2_counter_terrorist_adv",
+                "name": "SSG 08 (Lvl.2 Scope)"
+            },
+            {
+                "id": "ssg_08_z2_terrorist_adv",
+                "name": "SSG 08 (Lvl.2 Scope)"
+            },
+            {
+                "id": "tec_9_adv",
+                "name": "Tec-9"
+            },
+            {
+                "id": "ump_45_counter_terrorist_adv",
+                "name": "UMP-45"
+            },
+            {
+                "id": "ump_45_terrorist_adv",
+                "name": "UMP-45"
+            },
+            {
+                "id": "usp_s_adv",
+                "name": "USP-S"
+            },
+            {
+                "id": "xm1014_counter_terrorist_adv",
+                "name": "XM1014"
+            },
+            {
+                "id": "xm1014_terrorist_adv",
+                "name": "XM1014"
+            }
+        ]
+    },
+    {
+        "id": "tomclancysadvanced",
+        "name": "Rainbow 6 Siege",
+        "short_name": "Rainbow 6",
+        "weapons": [
+            {
+                "id": ".44_mag_semi_auto_kaid_adv",
+                "name": ".44 Mag Semi-Auto"
+            },
+            {
+                "id": ".44_mag_semi_auto_nomad_adv",
+                "name": ".44 Mag Semi-Auto"
+            },
+            {
+                "id": "1911_tacops_maverick_adv",
+                "name": "1911 TACOPS"
+            },
+            {
+                "id": "416_adv",
+                "name": "416-C Carbine"
+            },
+            {
+                "id": "552_adv",
+                "name": "552 Commando"
+            },
+            {
+                "id": "556xi_adv",
+                "name": "556xi"
+            },
+            {
+                "id": "57_usg_ash_adv",
+                "name": "5.7 USG"
+            },
+            {
+                "id": "57_usg_castle_adv",
+                "name": "5.7 USG"
+            },
+            {
+                "id": "57_usg_nokk_adv",
+                "name": "5.7 USG"
+            },
+            {
+                "id": "57_usg_pulse_adv",
+                "name": "5.7 USG"
+            },
+            {
+                "id": "57_usg_thermite_adv",
+                "name": "5.7 USG"
+            },
+            {
+                "id": "6p41_finka_adv",
+                "name": "6P41"
+            },
+            {
+                "id": "6p41_fuze_adv",
+                "name": "6P41"
+            },
+            {
+                "id": "9mm_c1_adv",
+                "name": "9mm C1"
+            },
+            {
+                "id": "9x19vsn_kapkan_adv",
+                "name": "9x 19VSN"
+            },
+            {
+                "id": "9x19vsn_tachanka_adv",
+                "name": "9x 19VSN"
+            },
+            {
+                "id": "acs12_alibi_adv",
+                "name": "ACS12"
+            },
+            {
+                "id": "acs12_maestro_adv",
+                "name": "ACS12"
+            },
+            {
+                "id": "ak12_adv",
+                "name": "AK-12"
+            },
+            {
+                "id": "ak_47m_nomad_adv",
+                "name": "AK 47M"
+            },
+            {
+                "id": "alda_5.56_adv",
+                "name": "ALDA 5.56"
+            },
+            {
+                "id": "ar33_thatcher_adv",
+                "name": "AR33"
+            },
+            {
+                "id": "arx200_nomad_adv",
+                "name": "ARX200"
+            },
+            {
+                "id": "ar_15.50_maverick_adv",
+                "name": "AR-15.50"
+            },
+            {
+                "id": "aug_a3_kaid_adv",
+                "name": "AUG A3"
+            },
+            {
+                "id": "aug_adv",
+                "name": "AUG A2"
+            },
+            {
+                "id": "bailiff_410_alibi_adv",
+                "name": "Bailiff 410"
+            },
+            {
+                "id": "bailiff_410_maestro_adv",
+                "name": "Bailiff 410"
+            },
+            {
+                "id": "bearing_9_echo_adv",
+                "name": "Bearing 9"
+            },
+            {
+                "id": "bearing_9_hibana_adv",
+                "name": "Bearing 9"
+            },
+            {
+                "id": "bosg.12.2_dokkaebi_adv",
+                "name": "BOSG. 12.2"
+            },
+            {
+                "id": "bosg.12.2_vigil_adv",
+                "name": "BOSG. 12.2"
+            },
+            {
+                "id": "c75_auto_dokkaebi_adv",
+                "name": "C75 Auto"
+            },
+            {
+                "id": "c75_auto_vigil_adv",
+                "name": "C75 Auto"
+            },
+            {
+                "id": "c7e_adv",
+                "name": "C7E"
+            },
+            {
+                "id": "c8_sfw_adv",
+                "name": "C8-SFW"
+            },
+            {
+                "id": "camrs_adv",
+                "name": "CAMRS"
+            },
+            {
+                "id": "commando_9_mozzie_adv",
+                "name": "Commando 9"
+            },
+            {
+                "id": "d_50_blackbeard_adv",
+                "name": "D-50"
+            },
+            {
+                "id": "d_50_nokk_adv",
+                "name": "D-50"
+            },
+            {
+                "id": "d_50_valkyrie_adv",
+                "name": "D-50"
+            },
+            {
+                "id": "f2_adv",
+                "name": "F2"
+            },
+            {
+                "id": "f90_gridlock_adv",
+                "name": "F90"
+            },
+            {
+                "id": "fmg9_adv",
+                "name": "FMG-9"
+            },
+            {
+                "id": "fmg9_nokk_adv",
+                "name": "FMG-9"
+            },
+            {
+                "id": "fo_12_ela_adv",
+                "name": "FO-12"
+            },
+            {
+                "id": "g36c_adv",
+                "name": "G36C"
+            },
+            {
+                "id": "g8a1_adv",
+                "name": "G8A1"
+            },
+            {
+                "id": "g8a1_amaru_adv",
+                "name": "G8A1"
+            },
+            {
+                "id": "gsh_18_finka_adv",
+                "name": "GSh-18"
+            },
+            {
+                "id": "gsh_18_fuze_adv",
+                "name": "GSh-18"
+            },
+            {
+                "id": "gsh_18_glaz_adv",
+                "name": "GSh-18"
+            },
+            {
+                "id": "gsh_18_kapkan_adv",
+                "name": "GSh-18"
+            },
+            {
+                "id": "gsh_18_tachanka_adv",
+                "name": "GSh-18"
+            },
+            {
+                "id": "hk417_lion_adv",
+                "name": "HK417"
+            },
+            {
+                "id": "hk417_twitch_adv",
+                "name": "HK417"
+            },
+            {
+                "id": "ita12l_jackal_adv",
+                "name": "ITA12L"
+            },
+            {
+                "id": "ita12l_mira_adv",
+                "name": "ITA12L"
+            },
+            {
+                "id": "ita12s_amaru_adv",
+                "name": "ITA12S"
+            },
+            {
+                "id": "ita12s_jackal_adv",
+                "name": "ITA12S"
+            },
+            {
+                "id": "ita12s_mira_adv",
+                "name": "ITA12S"
+            },
+            {
+                "id": "k1a_adv",
+                "name": "K1A"
+            },
+            {
+                "id": "keratos_357_alibi_adv",
+                "name": "Keratos .357"
+            },
+            {
+                "id": "keratos_357_maestro_adv",
+                "name": "Keratos .357"
+            },
+            {
+                "id": "l85a2_sledge_adv",
+                "name": "L85A2"
+            },
+            {
+                "id": "l85a2_thatcher_adv",
+                "name": "L85A2"
+            },
+            {
+                "id": "lfp586_doc_adv",
+                "name": "LFP586"
+            },
+            {
+                "id": "lfp586_lion_adv",
+                "name": "LFP586"
+            },
+            {
+                "id": "lfp586_montagne_adv",
+                "name": "LFP586"
+            },
+            {
+                "id": "lfp586_rook_adv",
+                "name": "LFP586"
+            },
+            {
+                "id": "lfp586_twitch_adv",
+                "name": "LFP586"
+            },
+            {
+                "id": "lmg_e_adv",
+                "name": "LMG-E"
+            },
+            {
+                "id": "luison_caveira_adv",
+                "name": "Luison"
+            },
+            {
+                "id": "m1014_castle_adv",
+                "name": "M1014"
+            },
+            {
+                "id": "m1014_pulse_adv",
+                "name": "M1014"
+            },
+            {
+                "id": "m1014_thermite_adv",
+                "name": "M1014"
+            },
+            {
+                "id": "m12_adv",
+                "name": "M12"
+            },
+            {
+                "id": "m249_adv",
+                "name": "M249"
+            },
+            {
+                "id": "m249_saw_gridlock_adv",
+                "name": "M249 SAW"
+            },
+            {
+                "id": "m45_meusoc_ash_adv",
+                "name": "M45 MEUSOC"
+            },
+            {
+                "id": "m45_meusoc_castle_adv",
+                "name": "M45 MEUSOC"
+            },
+            {
+                "id": "m45_meusoc_pulse_adv",
+                "name": "M45 MEUSOC"
+            },
+            {
+                "id": "m45_meusoc_thermite_adv",
+                "name": "M45 MEUSOC"
+            },
+            {
+                "id": "m4_maverick_adv",
+                "name": "M4"
+            },
+            {
+                "id": "m590a1_mute_adv",
+                "name": "M590A1"
+            },
+            {
+                "id": "m590a1_sledge_adv",
+                "name": "M590A1"
+            },
+            {
+                "id": "m590a1_smoke_adv",
+                "name": "M590A1"
+            },
+            {
+                "id": "m590a1_tatcher_adv",
+                "name": "M590A1"
+            },
+            {
+                "id": "m590a1_warden_adv",
+                "name": "M590A1"
+            },
+            {
+                "id": "m762_adv",
+                "name": "M762"
+            },
+            {
+                "id": "m870_bandit_adv",
+                "name": "M870"
+            },
+            {
+                "id": "m870_jager_adv",
+                "name": "M870"
+            },
+            {
+                "id": "mk14_ebr_adv",
+                "name": "Mk14 EBR"
+            },
+            {
+                "id": "mk17_adv",
+                "name": "mk17 CQB"
+            },
+            {
+                "id": "mk1_9mm_buck_adv",
+                "name": "Mk1 9mm"
+            },
+            {
+                "id": "mk1_9mm_frost_adv",
+                "name": "Mk1 9mm"
+            },
+            {
+                "id": "mp5k_adv",
+                "name": "MP5K"
+            },
+            {
+                "id": "mp5sd_adv",
+                "name": "MP5SD"
+            },
+            {
+                "id": "mp5_doc_adv",
+                "name": "MP5"
+            },
+            {
+                "id": "mp5_rook_adv",
+                "name": "MP5"
+            },
+            {
+                "id": "mp7_adv",
+                "name": "MP7"
+            },
+            {
+                "id": "mpx_adv",
+                "name": "MPX"
+            },
+            {
+                "id": "mpx_warden_adv",
+                "name": "MPX"
+            },
+            {
+                "id": "mx4_storm_adv",
+                "name": "MX4-Storm"
+            },
+            {
+                "id": "ots_03_adv",
+                "name": "OTs-03"
+            },
+            {
+                "id": "p10_roni_mozzie_adv",
+                "name": "P10 RONI"
+            },
+            {
+                "id": "p12_bandit_adv",
+                "name": "P12"
+            },
+            {
+                "id": "p12_blitz_adv",
+                "name": "P12"
+            },
+            {
+                "id": "p12_iq_adv",
+                "name": "P12"
+            },
+            {
+                "id": "p12_jager_adv",
+                "name": "P12"
+            },
+            {
+                "id": "p226_mk_25_mute_adv",
+                "name": "P226 Mk 25"
+            },
+            {
+                "id": "p226_mk_25_sledge_adv",
+                "name": "P226 Mk 25"
+            },
+            {
+                "id": "p226_mk_25_smoke_adv",
+                "name": "P226 Mk 25"
+            },
+            {
+                "id": "p226_mk_25_thatcher_adv",
+                "name": "P226 Mk 25"
+            },
+            {
+                "id": "p229_echo_adv",
+                "name": "P229"
+            },
+            {
+                "id": "p229_goyo_adv",
+                "name": "P229"
+            },
+            {
+                "id": "p229_hibana_adv",
+                "name": "P229"
+            },
+            {
+                "id": "p90_doc_adv",
+                "name": "P90"
+            },
+            {
+                "id": "p90_rook_adv",
+                "name": "P90"
+            },
+            {
+                "id": "p9_doc_adv",
+                "name": "P9"
+            },
+            {
+                "id": "p9_lion_adv",
+                "name": "P9"
+            },
+            {
+                "id": "p9_montagne_adv",
+                "name": "P9"
+            },
+            {
+                "id": "p9_rook_adv",
+                "name": "P9"
+            },
+            {
+                "id": "p9_twitch_adv",
+                "name": "P9"
+            },
+            {
+                "id": "para_308_adv",
+                "name": "PARA-308"
+            },
+            {
+                "id": "pdw9_adv",
+                "name": "PDW9"
+            },
+            {
+                "id": "pmm_finka_adv",
+                "name": "PMM"
+            },
+            {
+                "id": "pmm_fuze_adv",
+                "name": "PMM"
+            },
+            {
+                "id": "pmm_glaz_adv",
+                "name": "PMM"
+            },
+            {
+                "id": "pmm_kapkan_adv",
+                "name": "PMM"
+            },
+            {
+                "id": "pmm_tachanka_adv",
+                "name": "PMM"
+            },
+            {
+                "id": "prb92_capitao_adv",
+                "name": "PRB92"
+            },
+            {
+                "id": "p_10c_clash_adv",
+                "name": "P-10C"
+            },
+            {
+                "id": "p_10c_warden_adv",
+                "name": "P-10C"
+            },
+            {
+                "id": "q_929_lesion_adv",
+                "name": "Q-929"
+            },
+            {
+                "id": "q_929_ying_adv",
+                "name": "Q-929"
+            },
+            {
+                "id": "r4c_adv",
+                "name": "R4C"
+            },
+            {
+                "id": "rg15_ela_adv",
+                "name": "RG15"
+            },
+            {
+                "id": "rg15_zofia_adv",
+                "name": "RG15"
+            },
+            {
+                "id": "sasg_12_finka_adv",
+                "name": "FO-12"
+            },
+            {
+                "id": "sasg_12_kapkan_adv",
+                "name": "FO-12"
+            },
+            {
+                "id": "sasg_12_tachanka_adv",
+                "name": "FO-12"
+            },
+            {
+                "id": "scorpion_adv",
+                "name": "Scorpion"
+            },
+            {
+                "id": "sdp_9mm_gridlock_adv",
+                "name": "SDP 9MM"
+            },
+            {
+                "id": "sdp_9mm_mozzie_adv",
+                "name": "SDP 9MM"
+            },
+            {
+                "id": "sg_cqb_doc_adv",
+                "name": "SG-CQB"
+            },
+            {
+                "id": "sg_cqb_lion_adv",
+                "name": "SG-CQB"
+            },
+            {
+                "id": "sg_cqb_rook_adv",
+                "name": "SG-CQB"
+            },
+            {
+                "id": "sg_cqb_twitch_adv",
+                "name": "SG-CQB"
+            },
+            {
+                "id": "six12sd_lesion_adv",
+                "name": "SIX12-SD"
+            },
+            {
+                "id": "six12sd_nokk_adv",
+                "name": "SIX12-SD"
+            },
+            {
+                "id": "six12_ying_adv",
+                "name": "SIX12"
+            },
+            {
+                "id": "smg_11_amaru_adv",
+                "name": "SMG-11"
+            },
+            {
+                "id": "smg_11_sledge_adv",
+                "name": "SMG-11"
+            },
+            {
+                "id": "smg_11_smoke_adv",
+                "name": "SMG-11"
+            },
+            {
+                "id": "smg_12_dokkaebi_adv",
+                "name": "SMG-12"
+            },
+            {
+                "id": "smg_12_vigil_adv",
+                "name": "SMG-12"
+            },
+            {
+                "id": "smg_12_warden_adv",
+                "name": "SMG-12"
+            },
+            {
+                "id": "spas_12_valkyrie_adv",
+                "name": "SPAS-12"
+            },
+            {
+                "id": "spas_15_caveira_adv",
+                "name": "SPAS-15"
+            },
+            {
+                "id": "spear_308_adv",
+                "name": "Spear .308"
+            },
+            {
+                "id": "spsmg9_clash_adv",
+                "name": "SPSMG9"
+            },
+            {
+                "id": "sr25_adv",
+                "name": "SR-25"
+            },
+            {
+                "id": "super90_frost_adv",
+                "name": "Super90"
+            },
+            {
+                "id": "supernova_amaru_adv",
+                "name": "SuperNova"
+            },
+            {
+                "id": "supernova_echo_adv",
+                "name": "SuperNova"
+            },
+            {
+                "id": "supernova_hibana_adv",
+                "name": "SuperNova"
+            },
+            {
+                "id": "t95_lsw_adv",
+                "name": "T-95 LSW"
+            },
+            {
+                "id": "tcsg12_kiad_adv",
+                "name": "TCSG12"
+            },
+            {
+                "id": "type_89_adv",
+                "name": "Type-89"
+            },
+            {
+                "id": "t_5_smg_adv",
+                "name": "T-5 SMG"
+            },
+            {
+                "id": "ump45_castle_adv",
+                "name": "UMP45"
+            },
+            {
+                "id": "ump45_pulse_adv",
+                "name": "UMP45"
+            },
+            {
+                "id": "usp40_jackal_adv",
+                "name": "USP40"
+            },
+            {
+                "id": "usp40_mira_adv",
+                "name": "USP40"
+            },
+            {
+                "id": "v308_adv",
+                "name": "V308"
+            },
+            {
+                "id": "vector.45acp_adv",
+                "name": "Vector .45ACP"
+            },
+            {
+                "id": "vector.45acp_goyo_adv",
+                "name": "Vector .45ACP"
+            }
+        ]
+    },
+    {
+        "id": "fortnite",
+        "name": "Fortnite",
+        "short_name": "Fortnite",
+        "weapons": [
+            {
+                "id": "assault_rifle_burst",
+                "name": "Assault Rifle Burst"
+            },
+            {
+                "id": "assault_rifle_burst_famas",
+                "name": "Assault Rifle Burst FAMAS"
+            },
+            {
+                "id": "assault_rifle_heavy",
+                "name": "Assault Rifle Heavy"
+            },
+            {
+                "id": "assault_rifle_M16",
+                "name": "Assault Rifle M16"
+            },
+            {
+                "id": "assault_rifle_SCAR",
+                "name": "Assault Rifle SCAR"
+            },
+            {
+                "id": "assault_rifle_scoped",
+                "name": "Assault Rifle Scoped"
+            },
+            {
+                "id": "assault_rifle_suppressed",
+                "name": "Assault Rifle Suppressed"
+            },
+            {
+                "id": "assault_rifle_thermal",
+                "name": "Assault Rifle Thermal Scoped"
+            },
+            {
+                "id": "drum_gun",
+                "name": "Drum Gun"
+            },
+            {
+                "id": "hand_cannon",
+                "name": "Hand Cannon"
+            },
+            {
+                "id": "hunter_rifle",
+                "name": "Hunter Rifle"
+            },
+            {
+                "id": "infantry_rifle",
+                "name": "Infantry Rifle"
+            },
+            {
+                "id": "light_machine_gun",
+                "name": "Light Machine Gun"
+            },
+            {
+                "id": "mini_gun",
+                "name": "Mini Gun"
+            },
+            {
+                "id": "pistol",
+                "name": "Pistol"
+            },
+            {
+                "id": "pistol_suppressed",
+                "name": "Pistol Suppressed"
+            },
+            {
+                "id": "revolver",
+                "name": "Revolver"
+            },
+            {
+                "id": "revolver_scoped",
+                "name": "Revolver Scoped"
+            },
+            {
+                "id": "shotgun_combat",
+                "name": "Shotgun Combat"
+            },
+            {
+                "id": "shotgun_double_barrel",
+                "name": "Shotgun Double Barrel"
+            },
+            {
+                "id": "shotgun_drum",
+                "name": "Shotgun Drum"
+            },
+            {
+                "id": "shotgun_heavy",
+                "name": "Shotgun Heavy"
+            },
+            {
+                "id": "shotgun_pump",
+                "name": "Shotgun Pump"
+            },
+            {
+                "id": "shotgun_tactical",
+                "name": "Shotgun Tactical"
+            },
+            {
+                "id": "smg",
+                "name": "SMG"
+            },
+            {
+                "id": "smg_compact",
+                "name": "SMG Compact"
+            },
+            {
+                "id": "smg_suppressed",
+                "name": "SMG Suppressed"
+            },
+            {
+                "id": "sniper_rifle_automatic",
+                "name": "Sniper Rifle Automatic"
+            },
+            {
+                "id": "sniper_rifle_bolt_action",
+                "name": "Sniper Rifle Bolt Action"
+            },
+            {
+                "id": "sniper_rifle_heavy",
+                "name": "Sniper Rifle Heavy"
+            },
+            {
+                "id": "sniper_rifle_storm_scout",
+                "name": "Sniper Rifle Storm Scout"
+            },
+            {
+                "id": "sniper_rifle_suppressed",
+                "name": "Sniper Rifle Suppressed"
+            }
+        ]
+    },
+    {
+        "id": "pubgonetoonesensconf",
+        "name": "PlayerUnknown's Battlegrounds",
+        "short_name": "PUBG",
+        "weapons": [
+            {
+                "id": "akm_simpl_s1_1_adv",
+                "name": "AKM"
+            },
+            {
+                "id": "aug_a3_simpl_s1_1_adv",
+                "name": "AUG A3"
+            },
+            {
+                "id": "awm_simpl_s1_1_adv",
+                "name": "AWM"
+            },
+            {
+                "id": "beryl_m762_simpl_s1_1_adv",
+                "name": "Beryl M762"
+            },
+            {
+                "id": "deagle_simpl_s1_1_adv",
+                "name": "Deagle"
+            },
+            {
+                "id": "dp_28_simpl_s1_1_adv",
+                "name": "DP-28"
+            },
+            {
+                "id": "g36c_simpl_s1_1_adv",
+                "name": "G36C"
+            },
+            {
+                "id": "groza_simpl_s1_1_adv",
+                "name": "Groza"
+            },
+            {
+                "id": "kar_98k_simpl_s1_1_adv",
+                "name": "Kar 98k"
+            },
+            {
+                "id": "m16a4_simpl_s1_1_adv",
+                "name": "M16A4"
+            },
+            {
+                "id": "m249_simpl_s1_1_adv",
+                "name": "M249"
+            },
+            {
+                "id": "m24_simpl_s1_1_adv",
+                "name": "M24"
+            },
+            {
+                "id": "m416_simpl_s1_1_adv",
+                "name": "M416"
+            },
+            {
+                "id": "micro_uzi_simpl_s1_1_adv",
+                "name": "Micro Uzi"
+            },
+            {
+                "id": "mini_14_simpl_s1_1_adv",
+                "name": "Mini 14"
+            },
+            {
+                "id": "mk14_ebr_simpl_s1_1_adv",
+                "name": "MK14 EBR"
+            },
+            {
+                "id": "mp5k_simpl_s1_1_adv",
+                "name": "MP5K"
+            },
+            {
+                "id": "p18c_simpl_s1_1_adv",
+                "name": "P18C"
+            },
+            {
+                "id": "p1911_simpl_s1_1_adv",
+                "name": "P1911"
+            },
+            {
+                "id": "p92_simpl_s1_1_adv",
+                "name": "P92"
+            },
+            {
+                "id": "pp_19_bizon_simpl_s1_1_adv",
+                "name": "PP-19 Bizon"
+            },
+            {
+                "id": "qbu_simpl_s1_1_adv",
+                "name": "QBU"
+            },
+            {
+                "id": "qbz_95_simpl_s1_1_adv",
+                "name": "QBZ95"
+            },
+            {
+                "id": "r1895_simpl_s1_1_adv",
+                "name": "R1895"
+            },
+            {
+                "id": "r45_simpl_s1_1_adv",
+                "name": "R45"
+            },
+            {
+                "id": "s12k_simpl_s1_1_adv",
+                "name": "S12K"
+            },
+            {
+                "id": "s1897_simpl_s1_1_adv",
+                "name": "S1897"
+            },
+            {
+                "id": "s686_simpl_s1_1_adv",
+                "name": "S686"
+            },
+            {
+                "id": "sawed_off_simpl_s1_1_adv",
+                "name": "Sawed Off"
+            },
+            {
+                "id": "scar_l_simpl_s1_1_adv",
+                "name": "SCAR-L"
+            },
+            {
+                "id": "skorpion_simpl_s1_1_adv",
+                "name": "Skorpion"
+            },
+            {
+                "id": "sks_simpl_s1_1_adv",
+                "name": "SKS"
+            },
+            {
+                "id": "slr_simpl_s1_1_adv",
+                "name": "SLR"
+            },
+            {
+                "id": "tommy_gun_simpl_s1_1_adv",
+                "name": "Tommy Gun"
+            },
+            {
+                "id": "ump9_simpl_s1_1_adv",
+                "name": "UMP9"
+            },
+            {
+                "id": "ump_45_simpl_s1_1_adv",
+                "name": "UMP-45"
+            },
+            {
+                "id": "vector_simpl_s1_1_adv",
+                "name": "Vector"
+            },
+            {
+                "id": "vss_simpl_s1_1_adv",
+                "name": "VSS"
+            },
+            {
+                "id": "win94_simpl_s1_1_adv",
+                "name": "Win 94"
+            }
+        ]
+    },
+    {
+        "id": "battalion1944",
+        "name": "Battalion 1944",
+        "short_name": "Battalion",
+        "weapons": [
+            {
+                "id": "baikal_21",
+                "name": "Baikal 21"
+            },
+            {
+                "id": "bar",
+                "name": "BAR"
+            },
+            {
+                "id": "fedorov_avtomat",
+                "name": "Fedorov Avtomat"
+            },
+            {
+                "id": "gewehr_43",
+                "name": "Gewehr 43"
+            },
+            {
+                "id": "greasegun",
+                "name": "Greasegun"
+            },
+            {
+                "id": "kar98k",
+                "name": "Kar98k"
+            },
+            {
+                "id": "kar98k_s",
+                "name": "Kar98k S"
+            },
+            {
+                "id": "luger",
+                "name": "Luger"
+            },
+            {
+                "id": "m1911",
+                "name": "M1911"
+            },
+            {
+                "id": "m1_carbine",
+                "name": "M1 Carbine"
+            },
+            {
+                "id": "m1_garand",
+                "name": "M1 Garand"
+            },
+            {
+                "id": "mosin_nagant",
+                "name": "Mosin Nagant"
+            },
+            {
+                "id": "mosin_nagant_s",
+                "name": "Mosin Nagant S"
+            },
+            {
+                "id": "mp_40",
+                "name": "MP40"
+            },
+            {
+                "id": "ppsh_43",
+                "name": "PPSh 43"
+            },
+            {
+                "id": "pps_43",
+                "name": "PPS 43"
+            },
+            {
+                "id": "springfield_s",
+                "name": "Springfield S"
+            },
+            {
+                "id": "stg_44",
+                "name": "STG-44"
+            },
+            {
+                "id": "stv_40",
+                "name": "STV-40"
+            },
+            {
+                "id": "thompson",
+                "name": "Thompson"
+            },
+            {
+                "id": "trenchgun",
+                "name": "Trenchgun"
+            },
+            {
+                "id": "tt_33",
+                "name": "TT-33"
+            }
+        ]
+    },
+    {
+        "id": "apexlegends2",
+        "name": "Apex Legends",
+        "short_name": "Apex Legends",
+        "weapons": [
+            {
+                "id": "alternator",
+                "name": "Alternator"
+            },
+            {
+                "id": "charge_rifle",
+                "name": "Charge Rifle"
+            },
+            {
+                "id": "eva_8_auto",
+                "name": "EVA 8 AUTO"
+            },
+            {
+                "id": "flatline",
+                "name": "Flatline"
+            },
+            {
+                "id": "g7_scout",
+                "name": "G7 Scout"
+            },
+            {
+                "id": "havoc",
+                "name": "Havoc"
+            },
+            {
+                "id": "kraber",
+                "name": "Kraber"
+            },
+            {
+                "id": "longbow",
+                "name": "Longbow"
+            },
+            {
+                "id": "l_star",
+                "name": "L-Star"
+            },
+            {
+                "id": "mastiff",
+                "name": "Mastiff"
+            },
+            {
+                "id": "mozambique",
+                "name": "Mozambique"
+            },
+            {
+                "id": "p2020",
+                "name": "P2020"
+            },
+            {
+                "id": "peacekeeper",
+                "name": "Peacekeeper"
+            },
+            {
+                "id": "prowler_selectfire_receiver",
+                "name": "Prowler (Selectfire Receiver)"
+            },
+            {
+                "id": "re_45",
+                "name": "RE-45"
+            },
+            {
+                "id": "r_301",
+                "name": "R-301"
+            },
+            {
+                "id": "r_99",
+                "name": "R-99"
+            },
+            {
+                "id": "sentinel",
+                "name": "Sentinel"
+            },
+            {
+                "id": "spitfire",
+                "name": "Spitfire"
+            },
+            {
+                "id": "triple_take",
+                "name": "Triple Take"
+            },
+            {
+                "id": "wingman",
+                "name": "Wingman"
+            }
+        ]
+    },
+    {
+        "id": "codmw",
+        "name": "Call of Duty MW \/ Warzone",
+        "short_name": "CoD MW\/WZ",
+        "weapons": [
+            {
+                "id": "1911",
+                "name": "1911"
+            },
+            {
+                "id": "725",
+                "name": "725"
+            },
+            {
+                "id": "akimbo_357",
+                "name": "akimbo .357"
+            },
+            {
+                "id": "ak_47",
+                "name": "AK-47"
+            },
+            {
+                "id": "aug",
+                "name": "AUG"
+            },
+            {
+                "id": "ax_50",
+                "name": "AX-50"
+            },
+            {
+                "id": "bruen_mk9",
+                "name": "Bruen MK9"
+            },
+            {
+                "id": "cr_56_amax",
+                "name": "CR-56 AMAX"
+            },
+            {
+                "id": "dragunov",
+                "name": "Dragunov"
+            },
+            {
+                "id": "ebr_14",
+                "name": "EBR 14"
+            },
+            {
+                "id": "fal",
+                "name": "FAL"
+            },
+            {
+                "id": "fennec",
+                "name": "Fennec"
+            },
+            {
+                "id": "fn_scar",
+                "name": "FN SCAR"
+            },
+            {
+                "id": "fr_556",
+                "name": "FR 5.56"
+            },
+            {
+                "id": "grau_556",
+                "name": "Grau 5.56"
+            },
+            {
+                "id": "hdr",
+                "name": "HDR"
+            },
+            {
+                "id": "holger_26",
+                "name": "Holger-26"
+            },
+            {
+                "id": "kar98k",
+                "name": "Kar98k"
+            },
+            {
+                "id": "kilo_141",
+                "name": "Kilo 141"
+            },
+            {
+                "id": "m13",
+                "name": "M13"
+            },
+            {
+                "id": "m19",
+                "name": "M19"
+            },
+            {
+                "id": "m4a1",
+                "name": "M4A1"
+            },
+            {
+                "id": "m91",
+                "name": "M91"
+            },
+            {
+                "id": "mg34",
+                "name": "MG34"
+            },
+            {
+                "id": "mk2_carbine",
+                "name": "MK2 Carbine"
+            },
+            {
+                "id": "model_680",
+                "name": "Model 680"
+            },
+            {
+                "id": "mp5",
+                "name": "MP5"
+            },
+            {
+                "id": "mp7",
+                "name": "MP7"
+            },
+            {
+                "id": "odin",
+                "name": "Odin"
+            },
+            {
+                "id": "origin_12",
+                "name": "Origin 12"
+            },
+            {
+                "id": "p90",
+                "name": "P90"
+            },
+            {
+                "id": "pkm",
+                "name": "PKM"
+            },
+            {
+                "id": "pp19_bizon",
+                "name": "PP19 Bizon"
+            },
+            {
+                "id": "r9_o",
+                "name": "R9-O"
+            },
+            {
+                "id": "ram_7",
+                "name": "RAM-7"
+            },
+            {
+                "id": "renetti",
+                "name": "Renetti"
+            },
+            {
+                "id": "rytec_amr",
+                "name": "Rytec AMR"
+            },
+            {
+                "id": "sa87",
+                "name": "SA87"
+            },
+            {
+                "id": "sks",
+                "name": "SKS"
+            },
+            {
+                "id": "striker_45",
+                "name": "Striker 45"
+            },
+            {
+                "id": "uzi",
+                "name": "Uzi"
+            },
+            {
+                "id": "vlk_rogue",
+                "name": "VLK Rogue"
+            },
+            {
+                "id": "x16",
+                "name": "X16"
+            },
+            {
+                "id": "_50_gs",
+                "name": ".50 GS"
+            }
+        ]
+    },
+    {
+        "id": "krunker",
+        "name": "Krunker",
+        "short_name": "Krunker",
+        "weapons": [
+            {
+                "id": "akimbo_uzi",
+                "name": "Akimbo Uzi"
+            },
+            {
+                "id": "assault_rifle",
+                "name": "Assault Rifle"
+            },
+            {
+                "id": "crossbow",
+                "name": "Crossbow"
+            },
+            {
+                "id": "famas",
+                "name": "FAMAS"
+            },
+            {
+                "id": "machine_gun",
+                "name": "Machine Gun"
+            },
+            {
+                "id": "pistol_bowman",
+                "name": "Pistol"
+            },
+            {
+                "id": "pistol_hunter",
+                "name": "Pistol"
+            },
+            {
+                "id": "pistol_marksman",
+                "name": "Pistol"
+            },
+            {
+                "id": "pistol_triggerman",
+                "name": "Pistol"
+            },
+            {
+                "id": "pistol_vince",
+                "name": "Pistol"
+            },
+            {
+                "id": "revolver",
+                "name": "Revolver"
+            },
+            {
+                "id": "semi_auto",
+                "name": "Semi-Auto"
+            },
+            {
+                "id": "shotgun",
+                "name": "Shotgun"
+            },
+            {
+                "id": "sniper_rifle",
+                "name": "Sniper Rifle"
+            },
+            {
+                "id": "submachine_gun",
+                "name": "Submachine Gun"
+            }
+        ]
+    },
+    {
+        "id": "escape",
+        "name": "Escape From Tarkov",
+        "short_name": "Esc. Tarkov",
+        "weapons": [
+            {
+                "id": "assault_rifle",
+                "name": "Assault Rifle"
+            },
+            {
+                "id": "dmr",
+                "name": "DMR"
+            },
+            {
+                "id": "pistol",
+                "name": "Pistol"
+            },
+            {
+                "id": "shotgun",
+                "name": "Shotgun"
+            },
+            {
+                "id": "smg",
+                "name": "SMG"
+            },
+            {
+                "id": "sniper_rifle",
+                "name": "Sniper Rifle"
+            }
+        ]
+    },
+    {
+        "id": "valorant",
+        "name": "Valorant",
+        "short_name": "Valorant",
+        "weapons": [
+            {
+                "id": "ares",
+                "name": "Ares"
+            },
+            {
+                "id": "bucky",
+                "name": "Bucky"
+            },
+            {
+                "id": "bulldog",
+                "name": "Bulldog"
+            },
+            {
+                "id": "classic",
+                "name": "Classic"
+            },
+            {
+                "id": "frenzy",
+                "name": "Frenzy"
+            },
+            {
+                "id": "ghost",
+                "name": "Ghost"
+            },
+            {
+                "id": "guardian",
+                "name": "Guardian"
+            },
+            {
+                "id": "judge",
+                "name": "Judge"
+            },
+            {
+                "id": "marshal",
+                "name": "Marshal"
+            },
+            {
+                "id": "odin",
+                "name": "Odin"
+            },
+            {
+                "id": "operator",
+                "name": "Operator"
+            },
+            {
+                "id": "phantom",
+                "name": "Phantom"
+            },
+            {
+                "id": "sheriff",
+                "name": "Sheriff"
+            },
+            {
+                "id": "shorty",
+                "name": "Shorty"
+            },
+            {
+                "id": "spectre",
+                "name": "Spectre"
+            },
+            {
+                "id": "stinger",
+                "name": "Stinger"
+            },
+            {
+                "id": "vandal",
+                "name": "Vandal"
+            }
+        ]
+    },
+    {
+        "id": "hyperscape",
+        "name": "Hyper Scape",
+        "short_name": "Hyper Scape",
+        "weapons": [
+            {
+                "id": "d_tap",
+                "name": "D-TAP"
+            },
+            {
+                "id": "hexfire",
+                "name": "Hexfire"
+            },
+            {
+                "id": "mammoth",
+                "name": "Mammoth"
+            },
+            {
+                "id": "protocol_v",
+                "name": "Protocol-V"
+            },
+            {
+                "id": "riot_one",
+                "name": "Riot One"
+            },
+            {
+                "id": "ripper",
+                "name": "Ripper"
+            }
+        ]
+    }
+]
