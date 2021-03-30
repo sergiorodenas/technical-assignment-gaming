@@ -3,26 +3,20 @@
 namespace Database\Factories;
 
 use App\Models\Score;
+use App\Models\User;
+use App\Models\Weapon;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ScoreFactory extends Factory
 {
-    /**
-     * The name of the factory's corresponding model.
-     *
-     * @var string
-     */
     protected $model = Score::class;
 
-    /**
-     * Define the model's default state.
-     *
-     * @return array
-     */
-    public function definition()
+    public function definition(): Array
     {
         return [
-            //
+            'user_id' => User::factory(),
+            'weapon_id' => Weapon::factory(),
+            'score' => $this->faker->numberBetween(100, 2147483647)
         ];
     }
 }

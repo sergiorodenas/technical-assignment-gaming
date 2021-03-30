@@ -17,18 +17,18 @@ class ImportWeaponsCommand extends Command
         // Happy to be able to use my own known package here
         StreamParser::json(base_path('games.json'))->each(function(Collection $file_game){
             $game = Game::firstOrCreate([
-                'slug' => $file_game->id
+                'slug' => $file_game->get('id')
             ], [
-                'name' => $file_game->name,
-                'short_name' => $file_game->short_name
+                'name' => $file_game->get('name'),
+                'short_name' => $file_game->get('short_name')
             ]);
 
             // We won't use this command that much, let's make a sync here even loosing performance
-            $file_game->weapons->each(function(Collection $file_weapon) use ($game){
+            $file_game->get('weapons')->each(function(Collection $file_weapon) use (&$game){
                 $game->weapons()->firstOrCreate([
-                    'slug' => $file_weapon->id
+                    'slug' => $file_weapon->get('id')
                 ], [
-                    'name' => $file_weapon->name
+                    'name' => $file_weapon->get('name')
                 ]);
             });
         });

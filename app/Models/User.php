@@ -40,4 +40,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function scores(){
+        return $this->hasMany(Score::class);
+    }
+
+    public function high_scores(){
+        // Wanted to use a custom table name to be more descriptive
+        return $this->belongsToMany(Weapon::class, 'user_weapon_high_scores')->withPivot('high_score')->withTimestamps();
+    }
 }
