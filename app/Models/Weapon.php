@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Weapon extends Model
 {
     use HasFactory;
+
+    public function game(){
+        return $this->belongsTo(Game::class);
+    }
 }

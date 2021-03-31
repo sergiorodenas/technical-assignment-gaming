@@ -47,6 +47,6 @@ class User extends Authenticatable
 
     public function high_scores(){
         // Wanted to use a custom table name to be more descriptive
-        return $this->belongsToMany(Weapon::class, 'user_weapon_high_scores')->withPivot('high_score')->withTimestamps();
+        return $this->belongsToMany(Weapon::class, 'user_weapon_high_scores')->using(HighScore::class)->withPivot('high_score')->withTimestamps();
     }
 }
