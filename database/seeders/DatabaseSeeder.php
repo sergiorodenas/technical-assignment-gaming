@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
 
         /**
          * I thought about using Redis for high scores but I've taken it as a MySQL challenge. 
-         * I wanted it to be simple and readable anyway so I've deformalized and grouped the maximum values from scores to user_weapon_high_scores table.
+         * I wanted it to be simple and readable anyway so I've deformalized and grouped the maximum values from scores table on user_weapon_high_scores table.
          */
 
         // Generate high scores grouping by two columns (takes around 3sec on my laptop)
