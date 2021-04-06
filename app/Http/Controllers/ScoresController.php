@@ -24,7 +24,7 @@ class ScoresController extends Controller
         abort_if($request->has('weapon') && $request->has('game'), 400, 'weapon and game filters cannot be applied at the same time');
         
         $usersRankAndPercentileQuery = DB::table('users')
-            ->selectRaw('id, RANK() OVER (ORDER BY high_score DESC) as user_global_rank, CEILING(PERCENT_RANK() OVER (ORDER BY high_score DESC) * 100) as user_global_percentile')
+            ->selectRaw('id, RANK() OVER (ORDER BY high_score DESC) as user_global_rank, CEILING((PERCENT_RANK() OVER (ORDER BY high_score DESC) + 0.000001) * 100) as user_global_percentile')
             ->groupBy('id'); // So we can keep mysql connection in strict mode
 
         return HighScore::with('user')->where(function($query) use (&$request){

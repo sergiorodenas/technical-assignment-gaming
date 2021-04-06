@@ -115,23 +115,35 @@ class ScoresControllerTest extends TestCase
             ->assertStatus(400);
     }
 
-    public function it_returns_a_valid_response_with_no_high_scores(){
+    public function test_it_returns_a_valid_response_with_no_high_scores(){
         $this->get(route('scores.index'))->assertStatus(200);
     }
 
-    public function it_returns_pagination_metadata(){
+    public function test_it_returns_pagination_metadata(){
         $this->get(route('scores.index'))->assertSeeInOrder(['current_page', 'data', 'first_page_url', 'from', 'last_page', 'last_page_url']);
     }
 
     // There is no store method, but wanted to test the sync anyway
-    public function it_updates_high_scores_when_scores_are_created(){
+    public function test_it_updates_high_scores_when_scores_are_created(){
         $user = User::factory()->create();
         $weapon = Weapon::factory()->create();
 
         Score::factory()->for($user)->for($weapon)->state(['score' => 100])->create();
         Score::factory()->for($user)->for($weapon)->state(['score' => 1000])->create();
 
-        $this->assertCount(1, HighScore::count());
+        $this->assertEquals(1, HighScore::count());
         $this->assertEquals(1000, HighScore::first()->high_score);
+    }
+
+    public function test_it_returns_rank_and_percentile(){
+        Score::factory()->times(100)->create();
+
+        $response = $this->get(route('scores.index'));
+
+        $this->assertEquals(1, $response->json('data.0.user_global_rank'));
+        $this->assertEquals(1, $response->json('data.0.user_global_percentile'));
+
+        $this->assertEquals(9, $response->json('data.8.user_global_rank'));
+        $this->assertEquals(9, $response->json('data.8.user_global_percentile'));
     }
 }
