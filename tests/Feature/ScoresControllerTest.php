@@ -57,6 +57,11 @@ class ScoresControllerTest extends TestCase
             'score' => 1000
         ])->create();
 
+        // Sets the user global high score to another value
+        Score::factory()->for($user)->state([
+            'score' => 3333
+        ])->create();
+
         $this->get(route('scores.index', ['weapon' => $weapon]))
             ->assertJsonFragment(['high_score' => 100])->assertJsonMissing(['high_score' => 1000]);
     }
@@ -75,6 +80,11 @@ class ScoresControllerTest extends TestCase
 
         Score::factory()->for($user)->for($weapon_discarded)->state([
             'score' => 1000
+        ])->create();
+
+        // Sets the user global high score to another value
+        Score::factory()->for($user)->state([
+            'score' => 3333
         ])->create();
 
         $this->get(route('scores.index', ['weapon' => $weapon]))
