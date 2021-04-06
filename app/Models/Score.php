@@ -11,11 +11,16 @@ class Score extends Model
 
     protected static function booted(){
         static::created(function (Score $score) {  
-            $oldScore = optional($score->user->high_scores()->where('weapon_id', $score->weapon_id)->first())->high_score ?? 0;
             $newScore = $score->score;
 
-            if($newScore > $oldScore){
+            $weaponOldScore = optional($score->user->high_scores()->where('weapon_id', $score->weapon_id)->first())->high_score ?? 0;
+            if($newScore > $weaponOldScore){
                 $score->user->high_scores()->syncWithoutDetaching([$score->weapon_id => ['high_score' => $newScore]]);
+            }
+
+            $userOldScore = $score->user->high_score ?? 0;
+            if($newScore > $userOldScore){
+                $score->user->update(['high_score' => $newScore]);
             }
         });
     }
